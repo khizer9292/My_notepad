@@ -1,3 +1,12 @@
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+
 allprojects {
     repositories {
         google()
