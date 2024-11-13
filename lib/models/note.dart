@@ -37,7 +37,7 @@ class Note {
   }
 
   Map<String, dynamic> toMap() {
-    var map = Map<String, dynamic>();
+    var map = <String, dynamic>{};
     if (id != null) {
       map['id'] = _id;
     }

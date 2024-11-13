@@ -14,7 +14,7 @@ void main() {
   }
 
   void startTimer() {
-    Timer.periodic(Duration(seconds: 1), (Timer timer) {
+    Timer.periodic(const Duration(seconds: 1), (Timer timer) {
       // DateTime now = DateTime.now();
       // var formatTime = DateFormat("jms").format(now);
       String time = formatTime();
